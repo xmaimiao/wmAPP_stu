@@ -1,0 +1,11 @@
+get_course_type_or_status:
+  -
+    by: xpath
+    locator: '//*[contains(text(),"${course_code}")]/../../div/div[2]/p[1]'
+    action: text
+
+get_course_z_m_status:
+  -
+    by: xpath
+    locator: '//*[contains(text(),"${course_code}")]/../../div/div[2]/p[2]'
+    action: text

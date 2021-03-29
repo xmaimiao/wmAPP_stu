@@ -1,0 +1,41 @@
+username:
+  -
+    by: xpath
+    locator: '//*[@resource-id="testing-studio:id/username_input"]'
+    action: click
+  -
+    by: xpath
+    locator: '//*[@resource-id="testing-studio:id/username_input"]'
+    action: clear
+  -
+    by: xpath
+    locator: '//*[@resource-id="testing-studio:id/username_input"]'
+    action: send
+    value: ${user}
+
+password:
+  -
+    by: xpath
+    locator: '//*[@resource-id="testing-studio:id/password_input"]'
+    action: click
+  -
+    by: xpath
+    locator: '//*[@resource-id="testing-studio:id/password_input"]'
+    action: clear
+  -
+    by: xpath
+    locator: '//*[@resource-id="testing-studio:id/password_input"]'
+    action: send
+    value: ${psd}
+
+save_click:
+  -
+    by: xpath
+    locator: '//*[@resource-id="testing-studio:id/login_button"]'
+    action: click
+
+remember_password:
+  -
+    by: xpath
+    locator: '//*[@resource-id="testing-studio:id/cb_remember_pwd"]'
+    action: click

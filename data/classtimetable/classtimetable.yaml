@@ -1,0 +1,18 @@
+click_today:
+  -
+    by: xpath
+    locator: '//*[@class="today-btn"]'
+    action: click
+
+get_term:
+  -
+    by: xpath
+    locator: '//*[@class="header-timeable-cpn van-cell-group"]//span'
+    action: text
+
+goto_studentcourses:
+  -
+    by: xpath
+    locator: '//*[@class="today-btn"]/../div[3]'
+    action: click
+

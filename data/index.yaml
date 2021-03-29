@@ -1,0 +1,11 @@
+goto_class_timetable:
+  -
+    by: xpath
+    locator: '//*[contains(@text,"${classtimetable}")]'
+    action: click
+
+goto_person_info:
+  -
+    by: xpath
+    locator: '//*[contains(@text,"${me}")]'
+    action: click

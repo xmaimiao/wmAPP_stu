@@ -1,0 +1,9 @@
+backtomain:
+  -
+    by: xpath
+    locator: '//*[contains(@class,"van-button--plain")]'
+    action: wait_click
+  -
+    by: xpath
+    locator: '//*[contains(@class,"van-button--plain")]'
+    action: click

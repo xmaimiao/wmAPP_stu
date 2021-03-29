@@ -1,0 +1,5 @@
+goto_settings:
+  -
+    by: xpath
+    locator: '//*[@resource-id="testing-studio:id/tv_wemust_setting"]'
+    action: click

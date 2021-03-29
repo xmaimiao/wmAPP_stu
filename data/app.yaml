@@ -1,0 +1,5 @@
+close:
+  -
+    by: id
+    locator: "iv_right_close"
+    action: click

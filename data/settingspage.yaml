@@ -1,0 +1,5 @@
+logout:
+  -
+    by: xpath
+    locator: '//*[@resource-id="testing-studio:id/tv_sign_out"]'
+    action: click

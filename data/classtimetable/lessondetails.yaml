@@ -1,0 +1,27 @@
+get_lesson_type:
+  -
+    by: xpath
+    locator: '//*[@class="main-contents van-cell-group van-hairline--top-bottom"]/div[7]/div[2]/span'
+    action: text
+
+get_lesson_room:
+  -
+    by: xpath
+    locator: '//*[@class="main-contents van-cell-group van-hairline--top-bottom"]/div[8]/div[2]/div'
+    action: text
+
+get_last_sign_record_toast:
+  -
+    by: xpath
+    locator: '//*[@class="van-cell__label"]/p[1]/div[1]/div'
+    action: click
+  -
+    by: xpath
+    locator: '//*[@class="van-toast__text"]'
+    action: text
+
+get_last_sign_record:
+  -
+    by: xpath
+    locator: '//*[@class="van-cell__label"]/p[1]/div[1]'
+    action: text

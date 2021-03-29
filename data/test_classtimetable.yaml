@@ -1,0 +1,12 @@
+#週一：x86；週二：x163；週三：x243；週四：x312；週五：x386；週六：x463；週日：x535；
+#8點半：y341；9點半：y423；10點半：y500；11點半：y576；12點半：y653；13點半：y730；14點半：y807；15點半：y885；
+#16點半：y360；17點半：y438；18點半：y516；19點半：y591；20點半：y668；21點半：y745；22點半：y821；23點半：y900；
+memu_person: 我的
+logout_datas:
+  {logout_x: 297, logout_y: 898}
+test_today_term:
+  - {username: 1909853D-I011-0057,password: wemust#2020,class_x: 363,class_y: 1000,expect: "2009"}
+test_course_type_or_status:
+  - {username: 1909853D-I011-0057,password: wemust#2020,class_x: 363,class_y: 1000,course_code: MATH103,expect: 授課中}
+test_course_z_m_status:
+  - {username: 1909853D-I011-0057,password: wemust#2020,class_x: 363,class_y: 1000,course_code: EIE190,expect: 授課中}
